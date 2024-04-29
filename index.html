@@ -11,6 +11,8 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 
 <body>
@@ -27,16 +29,16 @@
           <a class="nav-link link hover-6 d-block" href="#Nature">Nature Of Career</a>
         </div>
         <div class="navbar-nav link-wrapper">
-          <a class="nav-link link hover-6 d-block" href="#Nature">Required Education</a>
+          <a class="nav-link link hover-6 d-block" href="#education">Required Education</a>
         </div>
         <div class="navbar-nav link-wrapper">
-          <a class="nav-link link hover-6 d-block" href="#">Skills needed</a>
+          <a class="nav-link link hover-6 d-block" href="#skills">Skills needed</a>
         </div>
         <div class="navbar-nav link-wrapper">
-          <a class="nav-link link hover-6 d-block" href="#">Related institutions</a>
+          <a class="nav-link link hover-6 d-block" href="#Related">Related institutions</a>
         </div>
         <div class="navbar-nav link-wrapper">
-          <a class="nav-link link hover-6 d-block" href="#">Earning potential</a>
+          <a class="nav-link link hover-6 d-block" href="#Earnings">Earning potential</a>
         </div>
       </div>
     </nav>
@@ -65,7 +67,7 @@
 
 
           <!-- Card 2 -->
-          <div class="card col-12 col-lg-3 p-3 mb-2">
+          <div class="card col-12 col-lg-3 p-3 mb-2" id="education">
             <img src="imgs/education.png" class="card-img-top cardimgborder" alt="image found at https://www.fnu.edu/7-reasons-bachelors-degree-matters-today/">
             <div class="card-body text-center">
               <h5 class="card-title">Required Education</h5>
@@ -76,43 +78,68 @@
           </div>
         </div>
       </div>
+      </div>
 
       <div class="section2">
         <div class="container">
-          <h1 class="headerText">Potential earnings, related institutions, and skills needed</h1>
+          <h1 class="headerText">Potential earnings, and related institutions</h1>
           <div class="row m-3 justify-content-around">
             <!-- Card 1 -->
   
-            <div class="card col-12 col-lg-3 p-3 mb-2" id="Nature">
+            <div class="card col-12 col-lg-3 p-3 mb-2" id="Earnings">
               <img src="imgs/graph.png" class="card-img-top cardimgborder " alt="image found at https://www.zippia.com/salaries/security-system-engineer/">
               <div class="card-body text-center">
                 <h5 class="card-title">Potential Earnings</h5>
                 <p class="card-text">
                 </p>
-                <a href="https://www.hackerone.com/knowledge-center/application-security-engineer" target="_blank" class="btn btnstyle">Learn More</a>
+                <a href="https://www.ziprecruiter.com/Salaries/Application-Security-Engineer-Salary#:~:text=%24117%2C500%20is%20the%2025th%20percentile,Salaries%20below%20this%20are%20outliers.&text=%24157%2C000%20is%20the%2075th%20percentile." target="_blank" class="btn btnstyle">Learn More</a>
               </div>
             </div>
   
   
             <!-- Card 2 -->
-            <div class="card col-12 col-lg-3 p-3 mb-2">
+            <div class="card col-12 col-lg-3 p-3 mb-2" id="Related">
               <img src="imgs/MIT.png" class="card-img-top cardimgborder" alt="image found at https://arts.mit.edu/mit-students-see-future-campus/">
               <div class="card-body text-center">
                 <h5 class="card-title">Related institutions</h5>
                 <p class="card-text">
                 </p>
-                <a href="https://www.spiceworks.com/it-security/application-security/articles/application-security-engineer-job-requirements-skills/" class="btn btnstyle" target="_blank">Learn More</a>
+                <a href="https://www.usnews.com/best-colleges/rankings/computer-science/cybersecurity" class="btn btnstyle" target="_blank">Learn More</a>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+          <h1 class="headerText" id="skills">Skills Needed</h1>
+
         </div>
       </div>
   </main>
-  <footer>
-    <!-- place footer here -->
+  <footer class="bg-dark text-center text-white footerstyle">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1 footerhover"
+          style="background-color: #333333;"
+          href="https://github.com/DanielB566" target="_blank"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center bg-dark">
+      © 2023 Copyright:
+      <a class="text-white">Daniel Bootnik</a> 
+    </div>
+    <!-- Copyright -->
   </footer>
+  <!--footer-->
+
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
