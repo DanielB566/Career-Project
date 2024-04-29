@@ -168,3 +168,33 @@
   bottom: 0;
 }
 /*footer hover  */
+
+.cool-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cool-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.cool-list li:before {
+  content: "\2022"; /* Bullet character */
+  color: #ff6f61; /* Bullet color */
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.cool-list li:hover {
+  background-color: #d9d9d9;
+  transform: translateY(-2px);
+}
+
+.cool-list li:hover:before {
+  color: #ff9f51; /* Change bullet color on hover */
+}
