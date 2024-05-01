@@ -80,6 +80,7 @@
 .headerText{
   text-align: center;
   margin-bottom: 20px;
+  font-family: "Jersey 25", sans-serif;
 }
 
 .center{
@@ -198,3 +199,6 @@
 .cool-list li:hover:before {
   color: #ff9f51; /* Change bullet color on hover */
 }
+
+
+
